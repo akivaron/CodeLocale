@@ -1,4 +1,5 @@
 <?php
+
     $CC="g++";
     $out="./a.out";
     $code=$_POST["code"];
