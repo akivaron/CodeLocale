@@ -2,7 +2,7 @@
  include_once 'connector.php';
  session_start();
  if(isset($_POST['btn-signin']))
- {
+ { 
 	 $email=  strip_tags($_POST['inputEmail']);
 	 $password=  strip_tags($_POST['inputPassword']);
 	 $strsql= "SELECT * FROM users WHERE email='$email' AND password='$password' ";
