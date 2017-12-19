@@ -82,6 +82,7 @@
         	}
     	}
     	else
+		
     	{
         	echo '<script>alert("Sign up failed! Please go back and try again");</script>';
     	}
