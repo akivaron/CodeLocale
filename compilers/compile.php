@@ -8,6 +8,7 @@ if($langID=="null")
 $code=$_POST['code'];
 if($code=="")    
     {
+	
    	 echo "The code area is empty";
     }
 else
